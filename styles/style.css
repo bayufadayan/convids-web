@@ -396,6 +396,75 @@ main{
     text-align: justify;
 }
 
+.about-content-container{
+    /* background-color: hotpink; */
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-block:1.5rem;
+    gap: 2rem;
+}
+
+.about-content-container figure{
+    display: flex;
+    /* background-color: gold; */
+    width: 50%;
+    height: 26.5rem;
+    justify-content: center;
+}
+
+.about-content-container figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.author-info{
+    display: flex;
+    flex-direction: column;
+    /* background-color: saddlebrown; */
+    width: 70%;
+}
+
+.author-info table th{
+    padding: 0.5rem 1rem;
+    background: linear-gradient(to right, #B31312, #BF3131);
+    border-radius: 5px;
+    color: white;
+}
+
+.author-info table tr{
+    text-align: left;
+}
+
+.information-general, .achievement{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    /* background-color: deepskyblue; */
+}
+
+.information-general tr, .achievement tr{
+    padding-block: 0.5rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+.information-general td:first-child{
+    /* background-color: teal; */
+    width: 8rem;
+    padding: 0;
+}
+
+.information-general td{
+    /* background-color: salmon; */
+    padding-inline: 0.8rem;
+}
+
+.achievement i{
+    color: #FFB21A;
+    margin-right: 0.5rem;
+}
+
 aside{
     background-color: hotpink;
     width: 30%;
@@ -463,4 +532,8 @@ footer{
     text-decoration: none;
     color: black;
     font-size: xx-large;
+}
+
+#Pembelian, #Ulasan, #Tentang {
+    scroll-margin-top: calc(1.5rem + 3rem + 1.5rem + 1rem); /* Sesuaikan nilai dengan tinggi navbar Anda */
 }
