@@ -57,7 +57,7 @@
       <header id="beranda">
         <div class="main-section">
           <article>
-            <figure>
+            <figure class="movie-poster">
               <img src="assets/movie-poster.png" alt="Movie Poster" />
             </figure>
 
@@ -81,63 +81,101 @@
         </div>
 
         <div class="movie-preview">
-          <img src="assets/preview-1.png" alt="Movie Preview" class="screenshot"/>
-          <img src="assets/preview-2.png" alt="Movie Preview" class="screenshot"/>
-          <img src="assets/preview-3.png" alt="Movie Preview" class="screenshot"/>
+          <div class="pictures-panel">
+            <img src="assets/preview-1.png" alt="Movie Preview" class="screenshot"/>
+            <img src="assets/preview-2.png" alt="Movie Preview" class="screenshot"/>
+            <img src="assets/preview-3.png" alt="Movie Preview" class="screenshot"/>
+            <img src="assets/preview-2.png" alt="Movie Preview" class="screenshot"/>
+            <img src="assets/preview-1.png" alt="Movie Preview" class="screenshot"/>
+            <img src="assets/preview-3.png" alt="Movie Preview" class="screenshot"/>
+          </div>
+
         </div>
       </header>
 
-      <!-- Content -->
-      <div class="content">
-        <article id="Pembelian">
-          <h2>Pembelian</h2>
-          <hr />
-          <div class="card">Gratis</div>
-          <div class="card">Sewa</div>
-          <div class="card">Beli</div>
-        </article>
+      <div class="body-content">
+        <!-- Content -->
+        <div class="content">
+          <article id="Pembelian">
+            <h2>Pembelian</h2>
+            <hr />
+            <div class="card-container">
+              <div class="card">
+                <h3>Gratis</h3>
+                <p>Benefit :</p>
+                <ol type="1">
+                  <li>Durasi Maksiaml</li>
+                </ol>
 
-        <article id="Ulasan">
-          <h2>Ulasan</h2>
-          <hr />
-          <div class="review-card"></div>
-          <div class="review-card"></div>
-          <div class="review-card"></div>
-        </article>
+                <button>Beli</button>
+              </div>
+              <div class="card">Sewa</div>
+              <div class="card">Beli</div>
+            </div>
+          </article>
 
-        <article id="Tentang">
-          <h2>Tentang Pengarang</h2>
-          <img src="" alt="" />
-          <div>
-            <!-- informasi tentang author -->
-          </div>
-        </article>
-      </div>
+          <article id="Ulasan">
+            <h2>Ulasan</h2>
+            <hr />
+            <div class="review-card"></div>
+            <div class="review-card"></div>
+            <div class="review-card"></div>
+            <br><br><br><br><br><br><br><br>
+          </article>
 
-      <!-- Sidebar -->
-      <aside>
-        <header>
-          <h3>Movie Lainnya</h3>
-        </header>
-
-        <div class="sidebar-content">
-          <div class="sidebar-card">
+          <article id="Tentang">
+            <h2>Tentang Pengarang</h2>
+            <hr />
             <img src="" alt="" />
-            <h4>Musaqoh</h4>
-            <div class="decribtio">
-              <p></p>
+            <div>
+              <!-- informasi tentang author -->
+            </div>
+            <br><br><br><br><br><br><br><br>
+          </article>
+        </div>
+
+        <!-- Sidebar -->
+        <aside>
+          <header>
+            <h3>Movie Lainnya</h3>
+          </header>
+
+          <div class="sidebar-content">
+            <div class="sidebar-card">
+              <img src="" alt="" />
+              <h4>Musaqoh</h4>
+              <div class="decribtio">
+                <p></p>
+              </div>
             </div>
           </div>
-        </div>
-      </aside>
+        </aside>
+      </div>
     </main>
 
     <footer>
-      <div class="column">
-        <section class="foot-logo"></section>
-        <section class="foot-information"></section>
-        <section class="social-media"></section>
-      </div>
+        <div class="footer-container">
+          <section class="foot-logo">
+            <img src="assets/convids-logo-footer.png" alt="Logo Convids">
+          </section>
+          <section class="foot-information">
+            <p>Alamat <br>
+            123 Jalan Palsu, Kelurahan Khayalan, Kecamatan Imajinasi, Kota Fiktif, Negara Impian</p>
+  
+            <p>Kontak <br>
+            (+123) 4567 890</p>
+  
+            <p>Convids Indonesia &copy; Copyright 2024</p>
+          </section>
+          <section class="social-media">
+            <span>Social Media Kami</span>
+            <span class="social-logo">
+              <a href="https://www.facebook.com/p/Bayu-Fadayan-100006377050682/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="https://instagram.com/bayufadayan" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="https://linkedin.com/in/muhamad-bayu-fadayan" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </span>
+          </section>
+        </div>
     </footer>
   </body>
 </html>
