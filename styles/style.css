@@ -5,6 +5,10 @@
     font-family: "Open Sans", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header{
     width: 100%;
 }
@@ -77,7 +81,6 @@ main{
 
 .main-section article figure{
     border-radius: 10px;
-    object-fit: cover;
     background-color: olive;
     height: 18rem;
 }
@@ -90,7 +93,6 @@ main{
 
 .main-section article {
     width: 100%;
-    /* background-color: aqua; */
     display: flex;
     justify-content: center;
     gap: 4rem;
@@ -182,20 +184,20 @@ main{
 }
 
 .screenshot:hover{
-    opacity: 80%;
+    opacity: 70%;
     border-radius: 15px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
 .body-content {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
     padding-inline: 4.8rem;
     gap: 4rem;
 }
 
 .content{
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     width: 70%;
 }
 
@@ -206,16 +208,192 @@ main{
 .card-container{
     display: flex;
     flex-direction: row;
-    background-color: red;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-block: 2rem;
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
     width: 30%;
-    background-color: aqua;
-    height: 10rem;
+    background-color: #ECECEC;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1.5px rgba(0, 0, 0, 0.2);
+}
+
+.card-title{
+    background: linear-gradient(to right, #DE4022, #BB2E21);
+    position: relative;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-inline: 2rem;
+    padding: 2rem;
     justify-content: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    flex-direction: column;
+}
+
+.card-title h3{
+    text-align: center;
+    font-size: x-large;
+    z-index: 1;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    margin-bottom: 0.5rem;
+}
+
+.card-title h4{
+    margin-inline: 0.7rem;
+    padding-block: 0.2rem;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.card-title img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 10%;
+}
+
+.card-content{
+    /* background-color: chartreuse; */
+    padding-inline: 1rem;
+}
+
+.card-container thead{
+    /* background-color: #7C7777; */
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid black;
+}
+
+.card-content tbody{
+    /* background-color: aqua; */
+}
+
+.card-content tbody tr{
+    /* background-color: honeydew; */
+    display: flex;
+    align-items: center;
+    padding-block: 0.3rem;
+    margin-block: 0.2rem;
+    font-weight: 600;
+}
+
+.card-content tbody td:first-child {
+    display: flex;
+    /* background-color: #B31312; */
+    padding-right: 0.5rem;
+    font-size: larger;
+    text-align: left;
+}
+
+.fa-circle-check{
+    color: green;
+}
+
+.fa-circle-xmark{
+    color: #B31312;
+}
+
+.card-content tbody td{
+    /* background-color: #D9D9D9; */
+    margin-inline: 0.2rem;
+}
+
+.card-container button{
+    background: linear-gradient(to right, #B31312, #BF3131);
+    width: 70%;
+    min-height: 2rem;
+    border-style: none;
+    text-align: center;
+    border-radius: 10rem;
+    padding-block: 0.5rem;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    margin-block: 2rem;
+}
+
+.card-container button:hover{
+    background: white;
+    color: #B31312;
+    box-shadow: 0px 0px 20px rgba(179, 19, 18, 0.5);
+}
+
+.review-card-container{
+    padding-block: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.review-card{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #ECECEC; */
+    background: linear-gradient(to right, #f5dfd8, #ECECEC);
+    border-radius: 10px;
+    padding: 1.5rem;
+    gap: 0.3rem;
+}
+
+.review-card-top{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.review-card-top .rating-container, .review-card-top .username-container{
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.rating-container{
+    color: white;
+    gap: 0.3rem;
+    background-color: #727171;
+    padding: 0.2rem 1rem;
+}
+
+.rating-container i{
+    color: yellow;
+}
+
+.username-container{
+    font-weight: bold;
+    font-size: large;
+    gap: 0.5rem;
+}
+
+.username-container img{
+    width: 2rem;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.review-card-content{
+    padding-top: 0.5rem;
+    display: flex;
+}
+
+.review-card-content p{
+    text-align: justify;
 }
 
 aside{
