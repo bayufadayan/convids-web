@@ -279,10 +279,6 @@ main{
     border-bottom: 1px solid black;
 }
 
-.card-content tbody{
-    /* background-color: aqua; */
-}
-
 .card-content tbody tr{
     /* background-color: honeydew; */
     display: flex;
