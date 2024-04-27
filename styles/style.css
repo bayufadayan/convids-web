@@ -46,6 +46,7 @@ nav ul li a {
 
 .logo img{
     height: 38px;
+    
 }
 
 .nav-button{
@@ -72,4 +73,83 @@ nav ul li a {
 
 main{
     margin-top: calc(1.5rem + 3rem + 1.5rem);
+}
+
+#beranda{
+    /* background-color: crimson; */
+}
+
+.main-section article figure{
+    border-radius: 10px;
+    object-fit: cover;
+    background-color: olive;
+    height: 18rem;
+}
+
+.main-section article figure img{
+    height: 18rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(191, 49, 49, 0.5);
+}
+
+.main-section article {
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding-block: 4rem;
+}
+
+.main-section{
+    display: flex;
+}
+
+.header-main-section {
+    width: 40rem;
+}
+
+.header-main-section p{
+    text-align: justify;
+}
+
+.main-title{
+    font-size: 45px;
+}
+
+.header-main-section h5{
+    margin-bottom: 1.25rem;
+    font-weight: 500;
+    color: #7C7777;
+}
+
+.header-main-section button{
+    margin-top: 1rem;
+    display: flex;
+    background: linear-gradient(to right,#B31312, #BF3131);
+    width: 11.7rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-size: large;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap: 13px;
+    font-weight: bold;
+}
+
+.bg-main-section{
+    background: linear-gradient(to right, #EEE2DE, #FFB399);
+    width: 100%;
+    height: calc();
+    position: absolute;
+    z-index: -1;
+    height: 18.25rem;
+    top: 0;
+    margin-top: calc(1.5rem + 3rem + 1.5rem);
+}
+
+.movie-preview .screenshot {
+    height: 225px;
 }
