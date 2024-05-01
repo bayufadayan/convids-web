@@ -47,12 +47,10 @@
           <div class="buy-icon">
             <i class="fa-solid fa-cart-shopping"></i>
           </div>
-          <div class="hamburger">
-            &#9776;
-          </div>
+          <div class="hamburger">&#9776;</div>
         </div>
 
-        <div class="nav-button">
+        <div class="nav-button" id="film-play">
           <button>
             <i class="fa-solid fa-cart-shopping"></i>
             <strong>Rp 199.000,-</strong>
@@ -67,7 +65,11 @@
         <div class="main-section">
           <article>
             <figure class="movie-poster">
-              <img src="assets/movie-poster.png" alt="Movie Poster" />
+              <img
+                src="assets/movie-poster.png"
+                alt="Movie Poster"
+                class="for-popup"
+              />
             </figure>
 
             <div class="header-main-section">
@@ -83,7 +85,7 @@
                 yang kuat dan mengarah pada konfrontasi fisik.
               </p>
 
-              <button>
+              <button id="trailer-play">
                 <i class="fa-solid fa-play"></i><span>Lihat Trailer</span>
               </button>
             </div>
@@ -98,32 +100,32 @@
             <img
               src="assets/preview-1.png"
               alt="Movie Preview"
-              class="screenshot"
+              class="screenshot for-popup"
             />
             <img
               src="assets/preview-2.png"
               alt="Movie Preview"
-              class="screenshot"
+              class="screenshot for-popup"
             />
             <img
               src="assets/preview-3.png"
               alt="Movie Preview"
-              class="screenshot"
+              class="screenshot for-popup"
             />
             <img
               src="assets/preview-4.png"
               alt="Movie Preview"
-              class="screenshot"
+              class="screenshot for-popup"
             />
             <img
               src="assets/preview-5.png"
               alt="Movie Preview"
-              class="screenshot"
+              class="screenshot for-popup"
             />
             <img
               src="assets/preview-6.png"
               alt="Movie Preview"
-              class="screenshot"
+              class="screenshot for-popup"
             />
           </div>
         </div>
@@ -198,7 +200,7 @@
                   </table>
                 </div>
 
-                <button>Dapatkan</button>
+                <button class="coming-soon">Dapatkan</button>
               </div>
 
               <div class="card">
@@ -263,7 +265,7 @@
                   </table>
                 </div>
 
-                <button>Dapatkan</button>
+                <button class="coming-soon">Dapatkan</button>
               </div>
 
               <div class="card">
@@ -328,7 +330,7 @@
                   </table>
                 </div>
 
-                <button>Dapatkan</button>
+                <button class="coming-soon">Dapatkan</button>
               </div>
             </div>
           </article>
@@ -389,7 +391,11 @@
             <hr />
             <div class="about-content-container">
               <figure>
-                <img src="assets/author-photos.jpg" alt="bayu" />
+                <img
+                  src="assets/author-photos.jpg"
+                  alt="bayu"
+                  class="for-popup"
+                />
               </figure>
 
               <div class="author-info">
@@ -442,8 +448,8 @@
                     </tr>
                     <tr>
                       <td>
-                        <i class="fa-solid fa-trophy"></i>The Last Man Standing on
-                        Cucurax Gathering in Bali
+                        <i class="fa-solid fa-trophy"></i>The Last Man Standing
+                        on Cucurax Gathering in Bali
                       </td>
                     </tr>
                   </tbody>
@@ -462,7 +468,7 @@
 
           <div class="sidebar-content">
             <!-- Film ke 1 -->
-            <div class="sidebar-card">
+            <div class="sidebar-card coming-soon">
               <figure>
                 <img src="assets/musaqoh-thumbnail.png" alt="thumb" />
                 <div class="duration">
@@ -541,7 +547,7 @@
 
           <p>Convids Indonesia &copy; Copyright 2024</p>
         </section>
-        <hr id="footer-line">
+        <hr id="footer-line" />
         <section class="social-media">
           <span>Social Media Kami</span>
           <span class="social-logo">
@@ -562,6 +568,12 @@
         </section>
       </div>
     </footer>
+
+    <!-- Pop Up -->
+    <div class="popup-img">
+      <span>&times;</span>
+      <img src="assets/preview-2.png" alt="" class="screenshot" />
+    </div>
 
     <script src="script/script.js"></script>
   </body>
