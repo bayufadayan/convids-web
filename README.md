@@ -32,7 +32,8 @@ Kunjungi [Convids Web](https://bayufadayan.github.io/convids-web/) untuk melihat
 
 ## Tangkapan Layar
 
-![Convids Web Screenshot](screenshot.png)
+![Convids Web Screenshot](image/Screenshot_convids_web_desktop.png)
+![Convids Web Screenshot](image/Screenshot_convids_web_responsive.png)
 
 ## Dukungan
 
