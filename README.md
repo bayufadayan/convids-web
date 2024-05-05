@@ -38,17 +38,9 @@ Kunjungi [Convids Web](https://bayufadayan.github.io/convids-web/) untuk melihat
 
 Jika Anda menemui masalah atau memiliki pertanyaan, jangan ragu untuk [membuka masalah](https://github.com/bayufadayan/convids-web/issues). Kami siap membantu!
 
-## Kontribusi
-
-Kontribusi selalu dipersilakan! Jika Anda ingin meningkatkan proyek ini, silakan buat _pull request_.
-
 ## Pengembang
 
 - **Bayu Fadayan** - [GitHub](https://github.com/bayufadayan)
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) untuk detailnya.
 
 ---
 
