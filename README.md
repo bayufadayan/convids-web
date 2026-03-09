@@ -1,12 +1,12 @@
 # Convids Web
 
-[![Convids Web](https://img.shields.io/badge/Convids-Web-blue)](https://bayufadayan.github.io/convids-web/)
+[![Convids Web](https://img.shields.io/badge/Convids-Web-blue)](https://bayufadayan.github.io/convids-landing-page)
 
 Selamat datang di Convids Web! Ini adalah proyek web yang dibuat sebagai tugas akhir dari modul "Belajar Pemrograman Web Dasar" di Dicoding. Di sini Anda dapat menjelajahi dan membeli film-film komersil karya Bayu Fadayan. 
 
 ## Demo
 
-Kunjungi [Convids Web](https://bayufadayan.github.io/convids-web/) untuk melihat proyek dalam aksi!
+Kunjungi [Convids Web](https://bayufadayan.github.io/convids-landing-page/) untuk melihat proyek dalam aksi!
 
 ## Fitur
 
@@ -25,7 +25,7 @@ Kunjungi [Convids Web](https://bayufadayan.github.io/convids-web/) untuk melihat
 1. Clone repositori ini:
 
     ```bash
-    git clone https://github.com/bayufadayan/convids-web.git
+    git clone https://github.com/bayufadayan/convids-landing-page.git
     ```
 
 2. Buka file `index.html` di browser Anda.
@@ -37,7 +37,7 @@ Kunjungi [Convids Web](https://bayufadayan.github.io/convids-web/) untuk melihat
 
 ## Dukungan
 
-Jika Anda menemui masalah atau memiliki pertanyaan, jangan ragu untuk [membuka masalah](https://github.com/bayufadayan/convids-web/issues). Kami siap membantu!
+Jika Anda menemui masalah atau memiliki pertanyaan, jangan ragu untuk [membuka masalah](https://github.com/bayufadayan/convids-landing-page/issues). Kami siap membantu!
 
 ## Pengembang
 
