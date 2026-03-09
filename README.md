@@ -2,7 +2,7 @@
 
 [![Convids Web](https://img.shields.io/badge/Convids-Web-blue)](https://bayufadayan.github.io/convids-web/)
 
-Selamat datang di Convids Web! Ini adalah proyek web yang dibuat sebagai tugas akhir dari modul "Belajar Pemrograman Web Dasar" di Dicoding. Di sini Anda dapat menjelajahi dan membeli film-film komersil karya Bayu Fadayan.
+Selamat datang di Convids Web! Ini adalah proyek web yang dibuat sebagai tugas akhir dari modul "Belajar Pemrograman Web Dasar" di Dicoding. Di sini Anda dapat menjelajahi dan membeli film-film komersil karya Bayu Fadayan. 
 
 ## Demo
 
